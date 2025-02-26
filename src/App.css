@@ -158,7 +158,6 @@ body {
   margin-bottom: 0.5vw;
 }
 
-
 .who-we-are-container {
   width: 100vw;
   min-height: 100vh;
@@ -172,4 +171,100 @@ body {
   width: 100vw;
   height: auto;
   display: block;
+}
+
+.swiper-container {
+  position: relative;
+  width: 90vw;
+  height: 65vh;
+}
+
+.swiper-header {
+  position: absolute;
+  left: 2vw;
+  margin-top: 2vh;
+  font-size: 2vw;
+  font-weight: bold;
+  color: black;
+  z-index: 10;
+}
+
+.swiper {
+  width: 90vw;
+  height: 65vh;
+  border-radius: 0.5vw;
+  background: #E5E5E5;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-item {
+  height: 65vh;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-item img {
+  width: 14vw;
+  height: 35vh;
+  margin-bottom: 2vh;
+  background: white;
+}
+
+.slide-text {
+  margin: 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.button-container {
+  width: 14vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail-button {
+  width: 6.5vw;
+  height: 4vh;
+  background: black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 0.3vw;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2vw;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 20;
+  color: black;
+}
+
+.custom-prev {
+  left: -0.1vw;
+}
+
+.custom-next {
+  right: -0.1vw;
 }

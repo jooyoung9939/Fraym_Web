@@ -1,6 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import data from '../data.js';
+import prevButton from '../assets/images/button_prev.png'
+import nextButton from '../assets/images/button_next.png'
 
 const Main = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="main-container">
             <div className="main-text-container">
@@ -9,6 +22,37 @@ const Main = () => {
                 <p className="main-text">특별한 순간 당신만을 위한 선택.</p>
                 <p className="main-text-2">Fashion Rises As You Move.</p>
                 <p className="main-text-3">대여 | 보관 | 구매</p>
+            </div>
+            <div className="swiper-container">
+                <p className="swiper-header">FRAYM THREADS.</p>
+                <Swiper
+                    slidesPerView={4}
+                    spaceBetween={10}
+                    loop={true}
+                    pagination={{clickable: true}}
+                    navigation={{
+                        nextEl: ".custom-next",
+                        prevEl: ".custom-prev",
+                    }}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    {data.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <div className="slide-item" onClick={() => navigate(`/product/${item.id}`)}>
+                                <img src={item.url} alt={item.sale_name}/>
+                                <p className="slide-text">[{item.official_name}] -</p>
+                                <p className="slide-text">{item.sale_name}</p>
+                                <div className="button-container">
+                                    <p className="detail-button">상품 구매</p>
+                                    <p className="detail-button">대여 요청</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <img src={prevButton} alt={prevButton} className="custom-prev"/>
+                <img src={nextButton} alt={nextButton} className="custom-next"/>
             </div>
             <div className="main-text-container-2">
                 <div className="main-text-container-3">
