@@ -11,7 +11,8 @@ let data = [
         size : "어깨 48cm, 가슴 53cm, 소매 66cm, 총장 68cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "데님",
+        main_img : FraymLogo
     },
     {
         id : 2,
@@ -23,7 +24,8 @@ let data = [
         size : "어깨 51cm, 가슴 51cm, 소매 66cm, 총장 73cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "그레이",
+        main_img : FraymLogo
     },
     {
         id : 3,
@@ -35,7 +37,8 @@ let data = [
         size : "허리 41cm, 허벅지 22cm, 밑위 33.5cm, 총장 120cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "그레이",
+        main_img : FraymLogo
     },
     {
         id : 4,
@@ -49,7 +52,8 @@ let data = [
         size : "어깨 58cm, 가슴 61cm, 소매 61cm, 총장 76cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "블랙",
+        main_img : FraymLogo
     },
     {
         id : 5,
@@ -63,7 +67,8 @@ let data = [
         size : "허리 38cm, 허벅지 34cm, 밑위 29cm, 총장 112cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "블랙",
+        main_img : FraymLogo
     },
     {
         id : 6,
@@ -75,7 +80,8 @@ let data = [
         size : "어깨 50cm, 가슴 50cm, 소매 61cm, 총장 76cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "카키",
+        main_img : FraymLogo
     },
     {
         id : 7,
@@ -87,7 +93,8 @@ let data = [
         size : "허리 40cm, 허벅지 30cm, 밑위 32cm, 총장 113cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "데님",
+        main_img : FraymLogo
     },
     {
         id : 8,
@@ -99,7 +106,8 @@ let data = [
         size : "어깨 44cm, 가슴 44cm, 소매 62cm, 총장 78cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "블랙",
+        main_img : FraymLogo
     },
     {
         id : 9,
@@ -111,7 +119,8 @@ let data = [
         size : "허리 38.5cm, 허벅지 26cm, 밑위 34cm, 총장 116cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "블랙",
+        main_img : FraymLogo
     },
     {
         id : 10,
@@ -123,7 +132,8 @@ let data = [
         size : "어깨 51cm, 가슴 55cm, 소매 67cm, 총장 138cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "블랙",
+        main_img : FraymLogo
     },
     {
         id : 11,
@@ -136,7 +146,8 @@ let data = [
         size : "어깨 66cm, 가슴 56cm, 소매 67cm, 총장 72cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "브라운",
+        main_img : FraymLogo
     },
     {
         id : 12,
@@ -149,7 +160,8 @@ let data = [
         size : "허리 34cm, 허벅지 24cm, 밑위 23.5cm, 총장 97cm",
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
-        url : FraymLogo
+        color : "브라운",
+        main_img : FraymLogo
     }
 ]
 
