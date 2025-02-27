@@ -283,10 +283,29 @@ body {
 
 .product-detail-img-container {
   display: flex;
+  flex-direction: column;
   width: 42vw;
-  padding: 1vw;
   align-items: center;
-  justify-content: center;
+}
+
+.product-detail-img-sub-container {
+  display: flex;
+  width: 29vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+
+.product-detail-main-img {
+  width: 29vw;
+  height: 29vw;
+  background: #E5E5E5;
+}
+
+.product-detail-sub-img {
+  width: 9vw;
+  height: 9vw;
   background: #E5E5E5;
 }
 
