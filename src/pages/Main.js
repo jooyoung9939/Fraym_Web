@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -27,20 +27,24 @@ const Main = () => {
                 <p className="swiper-header">FRAYM THREADS.</p>
                 <Swiper
                     slidesPerView={4}
-                    spaceBetween={10}
+                    spaceBetween={0}
                     loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
                     pagination={{clickable: true}}
                     navigation={{
                         nextEl: ".custom-next",
                         prevEl: ".custom-prev",
                     }}
-                    modules={[Pagination, Navigation]}
+                    modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
                     {data.map((item) => (
                         <SwiperSlide key={item.id}>
                             <div className="slide-item" onClick={() => navigate(`/product/${item.id}`)}>
-                                <img src={item.url} alt={item.sale_name}/>
+                                <img src={item.main_img} alt={item.sale_name}/>
                                 <p className="slide-text">[{item.official_name}] -</p>
                                 <p className="slide-text">{item.sale_name}</p>
                                 <div className="button-container">
