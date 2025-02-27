@@ -1,5 +1,6 @@
 import FraymLogo from './assets/images/logo_fraym.png'
 
+
 let data = [
     {
         id : 1,
@@ -12,7 +13,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "데님",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 2,
@@ -25,7 +29,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "그레이",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 3,
@@ -38,7 +45,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "그레이",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 4,
@@ -53,7 +63,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "블랙",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 5,
@@ -68,7 +81,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "블랙",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 6,
@@ -81,7 +97,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "카키",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 7,
@@ -94,7 +113,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "데님",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 8,
@@ -107,7 +129,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "블랙",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 9,
@@ -120,7 +145,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "블랙",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 10,
@@ -133,7 +161,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "블랙",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 11,
@@ -147,7 +178,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "브라운",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     },
     {
         id : 12,
@@ -161,7 +195,10 @@ let data = [
         rental_price : "COMING SOON",
         sale_price : "COMING SOON",
         color : "브라운",
-        main_img : FraymLogo
+        main_img : FraymLogo,
+        sub_img_1 : FraymLogo,
+        sub_img_2 : FraymLogo,
+        sub_img_3 : FraymLogo
     }
 ]
 

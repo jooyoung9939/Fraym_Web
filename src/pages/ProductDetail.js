@@ -17,13 +17,18 @@ const ProductDetail = () => {
                     width: "90vw",
                     height: "0.1vw",
                     backgroundColor: "#E6E6E6",
-                    marginTop: "5vh",
-                    marginBottom: "2vh",
+                    marginTop: "1vw",
+                    marginBottom: "1vw",
                 }}
             ></div>
             <div className="product-detail-container">
                 <div className="product-detail-img-container">
-                    <img src={product.main_img} alt={product.sale_name}/>
+                    <img className="product-detail-main-img" src={product.main_img} alt={product.sale_name}/>
+                    <div className="product-detail-img-sub-container">
+                        <img className="product-detail-sub-img" src={product.sub_img_1} alt={product.sale_name}/>
+                        <img className="product-detail-sub-img" src={product.sub_img_2} alt={product.sale_name}/>
+                        <img className="product-detail-sub-img" src={product.sub_img_3} alt={product.sale_name}/>
+                    </div>
                 </div>
                 <div className="product-detail-explanation-container">
                     <p className="product-detail-text-title">[{product.official_name}] - {product.sale_name}</p>
