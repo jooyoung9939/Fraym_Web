@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom';
 import data from '../data.js';
 
 const ProductDetail = () => {
-    const { id } = useParams(); // 🔹 URL에서 id 가져오기
-    const product = data.find(item => item.id.toString() === id); // 🔹 해당 ID의 상품 찾기
+    const { id } = useParams();
+    const product = data.find(item => item.id.toString() === id);
 
     if (!product) {
         return <p>해당 상품을 찾을 수 없습니다.</p>;
@@ -54,16 +54,6 @@ const ProductDetail = () => {
                             }}
                         ></div>
                         <div className="product-detail-explanation-sub-container-1">
-                            <p className="product-detail-sub-text-1"><span className="font-bold">색상</span></p>
-                            <p className="product-detail-sub-text-2">{product.color}</p>
-                        </div>
-                        <div
-                            style={{
-                                width: "0.1vw",
-                                backgroundColor: "black",
-                            }}
-                        ></div>
-                        <div className="product-detail-explanation-sub-container-1">
                             <p className="product-detail-sub-text-1"><span className="font-bold">디자이너</span></p>
                             <p className="product-detail-sub-text-2">{product.designer}</p>
                         </div>
@@ -74,34 +64,34 @@ const ProductDetail = () => {
                     <p className="product-detail-text-2">{product.product_explanation}</p>
                     <p className="product-detail-text-1"><span className="font-bold">사이즈 정보:</span></p>
                     <p className="product-detail-text-2">{product.size}</p>
-                    <div className="product-detail-button">
-                        <p className="product-detail-button-text">즉시 대여</p>
+                    <div className="product-detail-button-1">
+                        <p className="product-detail-button-text-1">즉시 대여</p>
                         <div
                             style={{
                                 width: "0.05vw",
                                 height: "4vw",
                                 backgroundColor: "white",
-                                marginLeft: "2vw"
+                                marginLeft: "8.5vw"
                             }}
                         ></div>
                         <div className="product-detail-button-sub">
-                            <p className="product-detail-button-text">즉시 대여가:</p>
-                            <p className="product-detail-button-text">{product.rental_price}</p>
+                            <p className="product-detail-button-text-2">즉시 대여가:</p>
+                            <p className="product-detail-button-text-3">{product.rental_price}</p>
                         </div>
                     </div>
-                    <div className="product-detail-button">
-                        <p className="product-detail-button-text">즉시 구매</p>
+                    <div className="product-detail-button-2">
+                        <p className="product-detail-button-text-1">상품 구매</p>
                         <div
                             style={{
                                 width: "0.05vw",
                                 height: "4vw",
                                 backgroundColor: "white",
-                                marginLeft: "2vw"
+                                marginLeft: "8.5vw"
                             }}
                         ></div>
                         <div className="product-detail-button-sub">
-                            <p className="product-detail-button-text">즉시 구매가:</p>
-                            <p className="product-detail-button-text">{product.sale_price}</p>
+                            <p className="product-detail-button-text-2">즉시 구매가:</p>
+                            <p className="product-detail-button-text-3">{product.sale_price}</p>
                         </div>
                     </div>
                 </div>
