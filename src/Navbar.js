@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='nav'>
             <div className='nav-logo'>
-                <img src={FraymLogo} alt={FraymLogo} className='logo'/>
+                <img src={FraymLogo} alt={FraymLogo} className='logo' onClick={() => navigate('/')} style={{cursor: 'pointer'}}/>
             </div>
             <div className='menu-area'>
                 <ul className='menu-list'>
